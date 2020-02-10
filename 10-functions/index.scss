@@ -1,0 +1,35 @@
+@function calc-percent($baseValue, $percentageValue) {
+  @return ($percentageValue / $baseValue) * 100%;
+}
+
+.percentile-container {
+  $percent: calc-percent(2000, 500);
+  width: $percent;
+  content: '#{$percent}';
+}
+
+// default parameters with error
+@function column-width($columns, $totalColumns: 12) {
+  @if($columns > $totalColumns) {
+    @error 'Compilation Error!'
+  }
+
+  @return calc-percent($totalColumns, $columns);
+}
+
+.container-3 {
+  width: column-width(3, 12);
+}
+
+// arbitrary parameters
+@function sum($numbers...) {
+  $sum: 0;
+  @each $number in $numbers {
+    $sum: $sum + $number;
+  }
+  @return $sum;
+}
+
+.summed-container {
+  width: sum(50px, 30px, 100px);
+}

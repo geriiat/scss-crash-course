@@ -1,0 +1,13 @@
+@mixin clickable {
+  cursor: pointer;
+}
+
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}
+
+.my-container {
+  @include clickable;
+  @include square(50px);
+}

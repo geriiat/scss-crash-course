@@ -1,0 +1,38 @@
+.purple {
+  background-color: purple;
+}
+
+.greyish-red {
+  background-color: #a65959;
+}
+
+.cyan {
+  background-color: aqua;
+}
+
+.magenta {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
+}
+
+.low-opacity-red {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/**
+ * map functions
+ * https://sass-lang.com/documentation/modules/map
+ **/
+/**
+ * math functions
+ * https://sass-lang.com/documentation/modules/math
+ **/
+/**
+ * string functions
+ * https://sass-lang.com/documentation/modules/string
+ **/
+
+/*# sourceMappingURL=index.css.map */

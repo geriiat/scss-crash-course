@@ -1,0 +1,25 @@
+// included from global variables
+$brand-red: #ff0000;
+$brand-blue: #00003c;
+
+@mixin clickable {
+  cursor: pointer;
+}
+
+@mixin custom-scrollbar {
+  @include clickable;
+
+  $scrollbar-width: 12px;
+  $scrollbar-border-radius: 10px;
+
+  &::-webkit-scrollbar {
+    width: $scrollbar-width;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    -webkit-border-radius: $scrollbar-border-radius;
+    border-radius: $scrollbar-border-radius;
+    background: $brand-blue;
+    border: 4px solid #ffffff;
+  }
+}

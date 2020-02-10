@@ -1,0 +1,16 @@
+@charset "UTF-8";
+span.emoji-happy-smile {
+  font-family: IconFont;
+  font-variant: normal;
+  font-weight: normal;
+  content: ":)👭👭";
+}
+
+span.emoji-sad-smile {
+  font-family: IconFont;
+  font-variant: normal;
+  font-weight: normal;
+  content: ":(👭👭";
+}
+
+/*# sourceMappingURL=index.css.map */

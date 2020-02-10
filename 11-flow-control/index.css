@@ -1,0 +1,58 @@
+/**
+ *  if
+ */
+.square-av {
+  width: 100px;
+  height: 100px;
+}
+
+.circle-av {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+/**
+ *  if / else
+ */
+.banner {
+  background-color: #f2ece4;
+  color: #036;
+}
+body.dark .banner {
+  background-color: #6b717f;
+  color: #d2e1dd;
+}
+
+/**
+ * each - (key, value) in map
+ */
+.icon-small {
+  font-size: 20px;
+}
+
+.icon-medium {
+  font-size: 30px;
+}
+
+.icon-large {
+  font-size: 40px;
+}
+
+/**
+ * for $i from number to number
+ */
+.color-red {
+  background-color: #ff0000;
+}
+.color-red-lighten-1 {
+  background-color: #ff3333;
+}
+.color-red-lighten-2 {
+  background-color: #ff6666;
+}
+.color-red-lighten-3 {
+  background-color: #ff9999;
+}
+
+/*# sourceMappingURL=index.css.map */

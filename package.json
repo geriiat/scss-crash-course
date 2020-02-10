@@ -1,0 +1,9 @@
+{
+  "name": "scss-crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.25.0"
+  },
+  "author": "g.vrana"
+}

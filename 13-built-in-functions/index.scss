@@ -1,0 +1,46 @@
+$base-red: #ff0000;
+
+$base-red-darker: darken($base-red, 20%);
+$base-red-lighter: lighten($base-red, 20%);
+
+$base-blue: #0000ff;
+$purple: mix($base-red, $base-blue); // #594d85
+
+.purple {
+  background-color: $purple;
+}
+
+.greyish-red {
+  background-color: desaturate($base-red, 70%);
+}
+
+.cyan {
+  background-color: invert($base-red, 100%);
+}
+
+.magenta {
+  background-color: invert($base-blue, 100%);
+}
+
+.white {
+  background-color: invert(black, 100%);
+}
+
+.low-opacity-red {
+  background-color: transparentize($base-red, 0.5);
+}
+
+/**
+ * map functions
+ * https://sass-lang.com/documentation/modules/map
+ **/
+
+/**
+ * math functions
+ * https://sass-lang.com/documentation/modules/math
+ **/
+
+/**
+ * string functions
+ * https://sass-lang.com/documentation/modules/string
+ **/

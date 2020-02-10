@@ -1,0 +1,10 @@
+.error, .error--serious {
+  border: 1px #f00;
+  background-color: #fdd;
+}
+.error--serious {
+  border-width: 3px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.css.map */

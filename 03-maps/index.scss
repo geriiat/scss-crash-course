@@ -1,0 +1,22 @@
+$font-weights: (
+    "thin": 200,
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
+
+.font-thin {
+  font-weight: map-get($font-weights, 'thin');
+}
+
+.font-regular {
+  font-weight: map-get($font-weights, 'regular');
+}
+
+.font-medium {
+  font-weight: map-get($font-weights, 'medium');
+}
+
+.font-bold {
+  font-weight: map-get($font-weights, 'bold');
+}
